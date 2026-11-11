@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "preset-ja-technical-writing": true,
+    "terminology": {
+      "defaultTerms": false,
+      "terms": [
+        "OpenAPI",
+        ["Open ?API ?Spec(ification)?", "OpenAPI Specification"],
+        "Swagger",
+        "JSON Schema",
+        "JSON",
+        "YAML",
+        "HTTP",
+        "HTTPS",
+        "REST",
+        "GitHub",
+        "TypeScript",
+        "JavaScript",
+        ["Node\\.?js", "Node.js"]
+      ]
+    }
+  }
+}
