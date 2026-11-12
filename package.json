@@ -6,10 +6,13 @@
     "lint": "pnpm lint:md && pnpm lint:text",
     "lint:md": "markdownlint-cli2",
     "lint:text": "textlint '**/*.md'",
-    "fix:text": "textlint --fix '**/*.md'"
+    "fix:text": "textlint --fix '**/*.md'",
+    "fmt": "oxfmt '**/*.md'",
+    "fmt:check": "oxfmt --check '**/*.md'"
   },
   "devDependencies": {
     "markdownlint-cli2": "0.24.0",
+    "oxfmt": "0.78.0",
     "textlint": "15.8.0",
     "textlint-rule-preset-ja-technical-writing": "12.0.2",
     "textlint-rule-terminology": "5.2.16"
